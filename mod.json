@@ -1,0 +1,20 @@
+{
+	"Name": "Khalmee.HoloTracker",
+	"Description": "A client-side extension for Holoshift, tracks your decoy's position and lifetime remaining.",
+	"LoadPriority": 2,
+	"RequiredOnClient": false,
+	"Version": "1.0.0",
+	
+	"Scripts": [
+		{
+			"Path": "HoloTracker.nut",
+			"RunOn": "CLIENT",
+			"ClientCallback": {
+				"Before": "HoloTrackerInit"
+			},
+		}
+	],
+	"Localisation": [
+		"resource/HoloTracker_localisation_%language%.txt"
+	]
+}

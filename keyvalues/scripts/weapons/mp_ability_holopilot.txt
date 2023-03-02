@@ -1,0 +1,10 @@
+WeaponData
+{
+	Mods
+	{
+		mode_holoshift
+		{
+			"hud_icon"							"rui/menu/boosts/boost_icon_holopilot"
+		}
+	}
+}
